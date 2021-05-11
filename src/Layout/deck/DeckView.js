@@ -24,7 +24,7 @@ function DeckView({ removeDeck, removeCard, abortController }) {
     };
 
  
-  }, []);
+  },);
 
 
   async function getDeck() {

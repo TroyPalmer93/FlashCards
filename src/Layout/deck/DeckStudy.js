@@ -27,7 +27,7 @@ function DeckStudy({ abortController }) {
     };
 
 
-  }, []);
+  },);
 
   async function getDeck() {
     try {

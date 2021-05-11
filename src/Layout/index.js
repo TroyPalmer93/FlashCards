@@ -34,7 +34,7 @@ function Layout() {
       abortController.abort();
     };
 
-  }, []);
+  },);
 
 
   async function getDecks() {
